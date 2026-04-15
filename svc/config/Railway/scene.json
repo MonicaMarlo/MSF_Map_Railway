@@ -1,0 +1,20 @@
+{
+  "name": "MyPrivateFabricScene",
+  "entities": [
+    {
+      "name": "Starter_Object",
+      "components": [
+        {
+          "type": "Transform",
+          "position": { "x": 0, "y": 0, "z": 0 },
+          "rotation": { "x": 0, "y": 0, "z": 0, "w": 1 },
+          "scale": { "x": 1, "y": 1, "z": 1 }
+        },
+        {
+          "type": "MeshRenderer",
+          "uri": "models/library/your_model_name.glb"
+        }
+      ]
+    }
+  ]
+}
